@@ -1,0 +1,182 @@
+[
+  {
+    "image": "https://picsum.photos/seed/notemate/600/400",
+    "title": "NoteMate",
+    "companyName": "Skyline Labs",
+    "id": 1,
+    "description": "Fake description for NoteMate by Skyline Labs. A demo app showcasing features and UI.",
+    "size": 70.28,
+    "reviews": 481,
+    "ratingAvg": 2.95,
+    "downloads": 147316,
+    "ratings": [
+      { "name": "1 star", "count": 168 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 54 },
+      { "name": "4 star", "count": 185 },
+      { "name": "5 star", "count":  -6 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/photoflow/600/400",
+    "title": "PhotoFlow",
+    "companyName": "PixelForge",
+    "id": 2,
+    "description": "Fake description for PhotoFlow by PixelForge. A demo app showcasing features and UI.",
+    "size": 214.36,
+    "reviews": 792,
+    "ratingAvg": 3.48,
+    "downloads": 395024,
+    "ratings": [
+      { "name": "1 star", "count":  74 },
+      { "name": "2 star", "count":  67 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 382 },
+      { "name": "5 star", "count": 99 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/weatherly/600/400",
+    "title": "Weatherly",
+    "companyName": "NimbusSoft",
+    "id": 3,
+    "description": "Fake description for Weatherly by NimbusSoft. A demo app showcasing features and UI.",
+    "size": 23.11,
+    "reviews": 489,
+    "ratingAvg": 3.46,
+    "downloads": 8462,
+    "ratings": [
+      { "name": "1 star", "count":  22 },
+      { "name": "2 star", "count":  65 },
+      { "name": "3 star", "count": 187 },
+      { "name": "4 star", "count": 165 },
+      { "name": "5 star", "count": 50 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/fitpulse/600/400",
+    "title": "FitPulse",
+    "companyName": "HealthWare",
+    "id": 4,
+    "description": "Fake description for FitPulse by HealthWare. A demo app showcasing features and UI.",
+    "size": 136.63,
+    "reviews": 734,
+    "ratingAvg": 3.43,
+    "downloads": 221447,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 189 },
+      { "name": "3 star", "count": 83 },
+      { "name": "4 star", "count": 286 },
+      { "name": "5 star", "count": 56 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/cookbookr/600/400",
+    "title": "CookBookr",
+    "companyName": "ByteKitchen",
+    "id": 5,
+    "description": "Fake description for CookBookr by ByteKitchen. A demo app showcasing features and UI.",
+    "size": 46.78,
+    "reviews": 547,
+    "ratingAvg": 3.81,
+    "downloads": 58233,
+    "ratings": [
+      { "name": "1 star", "count": 21 },
+      { "name": "2 star", "count": 34 },
+      { "name": "3 star", "count": 137 },
+      { "name": "4 star", "count": 185 },
+      { "name": "5 star", "count": 170 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/tasksphere/600/400",
+    "title": "TaskSphere",
+    "companyName": "OrbitApps",
+    "id": 6,
+    "description": "Fake description for TaskSphere by OrbitApps. A demo app showcasing features and UI.",
+    "size": 18.92,
+    "reviews": 375,
+    "ratingAvg": 3.21,
+    "downloads": 11002,
+    "ratings": [
+      { "name": "1 star", "count": 42 },
+      { "name": "2 star", "count": 58 },
+      { "name": "3 star", "count": 96 },
+      { "name": "4 star", "count": 142 },
+      { "name": "5 star", "count": 37 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/chatnest/600/400",
+    "title": "ChatNest",
+    "companyName": "TalkLoop",
+    "id": 7,
+    "description": "Fake description for ChatNest by TalkLoop. A demo app showcasing features and UI.",
+    "size": 52.41,
+    "reviews": 297,
+    "ratingAvg": 2.9,
+    "downloads": 77215,
+    "ratings": [
+      { "name": "1 star", "count": 103 },
+      { "name": "2 star", "count": 48 },
+      { "name": "3 star", "count": 54 },
+      { "name": "4 star", "count": 64 },
+      { "name": "5 star", "count": 28 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/tunewave/600/400",
+    "title": "TuneWave",
+    "companyName": "SoundMill",
+    "id": 8,
+    "description": "Fake description for TuneWave by SoundMill. A demo app showcasing features and UI.",
+    "size": 89.07,
+    "reviews": 653,
+    "ratingAvg": 3.91,
+    "downloads": 999999,
+    "ratings": [
+      { "name": "1 star", "count":  30 },
+      { "name": "2 star", "count":  68 },
+      { "name": "3 star", "count": 164 },
+      { "name": "4 star", "count": 254 },
+      { "name": "5 star", "count": 137 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/budgetbee/600/400",
+    "title": "BudgetBee",
+    "companyName": "PocketFin",
+    "id": 9,
+    "description": "Fake description for BudgetBee by PocketFin. A demo app showcasing features and UI.",
+    "size": 12.45,
+    "reviews": 389,
+    "ratingAvg": 3.11,
+    "downloads": 45210,
+    "ratings": [
+      { "name": "1 star", "count": 52 },
+      { "name": "2 star", "count": 89 },
+      { "name": "3 star", "count": 112 },
+      { "name": "4 star", "count": 89 },
+      { "name": "5 star", "count": 47 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/gamegrid/600/400",
+    "title": "GameGrid",
+    "companyName": "PlayCore",
+    "id": 10,
+    "description": "Fake description for GameGrid by PlayCore. A demo app showcasing features and UI.",
+    "size": 250.0,
+    "reviews": 951,
+    "ratingAvg": 3.37,
+    "downloads": 310452,
+    "ratings": [
+      { "name": "1 star", "count": 190 },
+      { "name": "2 star", "count": 115 },
+      { "name": "3 star", "count": 244 },
+      { "name": "4 star", "count": 230 },
+      { "name": "5 star", "count": 172 }
+    ]
+  }
+]
