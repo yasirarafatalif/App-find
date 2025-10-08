@@ -1,10 +1,12 @@
 import { Download, Star } from 'lucide-react';
 import React from 'react';
+import { Link } from 'react-router';
 
 const HomeCardsData = ({cardData}) => {
     // console.log(cardData);
-    const {title,ratingAvg,downloads,image,companyName}=cardData
+    const {title,ratingAvg,downloads,image,companyName,id}=cardData
     return (
+<Link to={`/apps/${id}`}>
         <div className="card  bg-base-100 w-94  hover:scale-105 transition shadow-sm">
   <figure className="px-10 pt-10">
     <img
@@ -29,7 +31,7 @@ const HomeCardsData = ({cardData}) => {
              <div className=''> <button className=" btn text-blue-400 bg-gray-200 "> <Star/> {ratingAvg} </button> </div>
 
     </div>
-</div>
+</div></Link>
     );
 };
 

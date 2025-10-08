@@ -6,7 +6,7 @@ const AllCards = ({cardData}) => {
     return (
         <Link to={`/apps/${cardData.id}`}>
         <div>
-            <div className="card  bg-base-100 w-94  hover:scale-105 transition shadow-sm">
+            <div className="card  bg-base-100 w-94   hover:scale-105 transition shadow-sm">
   <figure className="px-10 pt-10">
     <img
       src={cardData.image}

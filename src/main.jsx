@@ -19,7 +19,7 @@ const router = createBrowserRouter([
       {path:'/card', Component:AllCard },
       { path:"/install" ,Component:InstallApp },
       { path:'/apps/:id' ,
-        // loader: ()=>fetch('myData.json'),
+      
         Component:SellInstallApp },
       { path: "/about", element: <p> this is about </p>}
 

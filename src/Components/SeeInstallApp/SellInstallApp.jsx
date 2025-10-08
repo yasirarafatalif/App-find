@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import useCardData from '../../Hooks/useCardData';
   import { ToastContainer, toast } from 'react-toastify';
+import { Download, Star, ThumbsUp } from 'lucide-react';
 
 const SellInstallApp = () => {
   const installData = useCardData()
@@ -13,7 +14,7 @@ const SellInstallApp = () => {
 
   // console.log(cardData);
   const { image, title, companyName, downloads, ratingAvg, size, description, reviews, rattings } = cardData
-console.log(click);
+// console.log(click);
 
   // console.log(id);
 
@@ -23,8 +24,10 @@ console.log(click);
   const localstoregHandle=()=>{
    const  loacalData=  JSON.parse(localStorage.getItem('add-to-cart'))
    let updateList =[]
-   const isDubliacate = loacalData.find(p=>p.id===cardData.id)
+  //  consol?\e.log(loacalData);
+   
    if(loacalData){
+    const isDubliacate = loacalData.find(p=>p.id===cardData.id)
     if(isDubliacate){
       alert('sorry')
     }
@@ -35,6 +38,7 @@ console.log(click);
    localStorage.setItem('add-to-cart', JSON.stringify(updateList))
 
   }
+  // console.log(l);
 
   return (
     <section>
@@ -78,7 +82,8 @@ console.log(click);
                 <span className="text-xs text-gray-500 uppercase">Downloads</span>
                 <div className="flex items-center gap-2 mt-1">
                   <p className="text-3xl font-bold text-gray-900">{downloads}M</p>
-                  {/* <ArrowDownTrayIcon className="h-7 w-7 text-gray-400" /> */}
+                  
+                  <Download className="h-10 w-7 text-gray-400"/>
                 </div>
               </div>
 
@@ -87,7 +92,8 @@ console.log(click);
                 <span className="text-xs text-gray-500 uppercase">Average Ratings</span>
                 <div className="flex items-center gap-2 mt-1">
                   <p className="text-3xl font-bold text-gray-900">{ratingAvg}</p>
-                  {/* <StarIcon className="h-8 w-8 text-purple-500" /> */}
+                  
+                  <Star className="h-10 w-8 text-purple-500"/>
                 </div>
               </div>
 
@@ -96,7 +102,8 @@ console.log(click);
                 <span className="text-xs text-gray-500 uppercase">Total Reviews</span>
                 <div className="flex items-center gap-2 mt-1">
                   <p className="text-3xl font-bold text-gray-900">{reviews}K</p>
-                  {/* <ChatBubbleLeftRightIcon className="h-8 w-8 text-purple-500" /> */}
+                  <ThumbsUp className="h-10 w-8 text-purple-500" />
+                  
                 </div>
               </div>
             </div>
@@ -119,6 +126,21 @@ console.log(click);
           <div className='border-b border-gray-400 '>
           
 
+          </div>
+
+          {/* this is garph cart section  */}
+
+
+
+
+          {/* this is garph discription section  */}
+          <div className='mx-5'>
+            <h1 className='text-4xl text-gray-500 font-bold'>
+              Discription
+            </h1>
+            <p className='text-gray-500'>
+              {description}
+            </p>
           </div>
 
       </div>

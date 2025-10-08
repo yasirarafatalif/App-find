@@ -12,13 +12,13 @@ const AllCard = () => {
     const [search , setsearch]=useState('')
     const trem = search.trim().toLocaleLowerCase()
     const mydata = trem? data.filter((proData)=>proData.companyName.toLocaleLowerCase().includes(trem)):data;
-    console.log(mydata);
+    // console.log(mydata);
     return (
         
 <div className='bg-[#e9e9e9]'>
 
     
-        <div className='flex justify-between mt-3 px-4  items-center'>
+        <div className='flex justify-between mt-3 px-4 py- items-center'>
             <p className='text-xl'>All App avibale ({mydata.length}/10)</p>
 
             {/* this is scarh */}
@@ -42,7 +42,7 @@ const AllCard = () => {
         </div>
      <div className='grid  my-4 gap-y-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 bg-[#e9e9e9]'>
            {
-            mydata.map((cardData)=> <AllCards cardData={cardData}></AllCards>)
+            mydata.map((cardData)=> <AllCards key={cardData.id} cardData={cardData}></AllCards>)
         }
 
      </div>
