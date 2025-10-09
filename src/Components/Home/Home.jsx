@@ -6,6 +6,7 @@ import useCardData from '../../Hooks/useCardData';
 import HomeCardsData from '../HomeCardsData/HomeCardsData';
 import { NavLink } from 'react-router';
 import { TrendingUp } from 'lucide-react';
+import BuildApps from '../Hero/BuildApps';
 
 
 const Home = () => {
@@ -13,14 +14,17 @@ const Home = () => {
     
     // console.log(data);
     const someData= data.slice(0,8)
-    if (loadding) return <p>Loading...</p>;
+    if (loadding) return <div className='flex justify-center my-auto items-center'>
+      <span className="loading loading-dots loading-xl"></span>
+    </div>
     
     
     
     return (
       <div className=" pb-4 bg-[#e9e9e9]">
+        <BuildApps></BuildApps>
           <Hero></Hero>
-        {/* <Info className="absolute top-1/2 left-1/2 -translate-x-1/2 w-full max-w-5xl -translate-y-1/2 z-20" ></Info> */}
+      
         <Info></Info>
 
 

@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import InstallImg from "../../../public/assest/App-Error.png";
+import { Link, NavLink } from 'react-router';
 
 const InstallApp = () => {
   const [install, setinstall]=useState([])
@@ -13,15 +15,15 @@ const InstallApp = () => {
   const sortItem=(
     ()=>{
     if(sortOrder ==='price-asc'){
-      return [...install].sort((a,b)=>a.size - b.size)
+      return [...install].sort((a,b)=>a.downloads - b.downloads)
     } else if (sortOrder ==='price-desc'){
-      return [...install].sort((a,b)=>b.size - a.size)
+      return [...install].sort((a,b)=>b.downloads - a.downloads)
     }else{
       return install
     }
   }
   ) ()
-
+// console.log(sortItem);
 
 
     const handleRemove=(id)=>{
@@ -36,7 +38,14 @@ const InstallApp = () => {
     return (
    <div className="bg-gray-100 min-h-screen font-sans text-gray-800">
     
-      <div className="container mx-auto px-4 py-12 max-w-5xl">
+      <div >
+        
+        
+
+
+       
+        {
+          install.length>0?( <div className="container mx-auto px-4 py-12 max-w-5xl">
         
         {/* Header Section */}
         <header className="text-center mb-12">
@@ -54,7 +63,7 @@ const InstallApp = () => {
         {/* Filter and Results Bar */}
         <div className="flex justify-between items-center mb-4">
           <p className="text-indigo-500 font-semibold">{install.length} Apps Found</p>
-         <select defaultValue="Color scheme" className="select select-accent">
+         <select onChange={(e)=>setsortOrder(e.target.value)} defaultValue="Color scheme" className="select select-accent">
   <option disabled={true}>Sort By Size</option>
   <option value='none'>None</option>
   <option value='price-asc'>High-Low</option>
@@ -111,6 +120,15 @@ const InstallApp = () => {
           
           {/* You can add more app items here */}
         </div>
+      </div>):(<div className=' my-auto mx-auto '>
+          <div className='flex  justify-center-safe'>
+            <img className='mt-20' src={InstallImg} alt="" />
+          </div>
+        <div className='flex justify-center mt-10'>
+            <Link to='/home' className='btn text-white text-xl py-6 text-center rounded-[4px] bg-[linear-gradient(125deg,_#632EE3_5.68%,_#9F62F2_88.38%)]'> Go Back</Link>
+          </div>
+        </div>)
+        }
       </div>
     </div>
     );

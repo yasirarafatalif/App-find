@@ -18,7 +18,7 @@ const AllCard = () => {
 <div className='bg-[#e9e9e9]'>
 
     
-        <div className='flex justify-between mt-3 px-4 py- items-center'>
+        <div className='flex justify-between py-3 px-4 py- items-center'>
             <p className='text-xl'>All App avibale ({mydata.length}/10)</p>
 
             {/* this is scarh */}
@@ -40,7 +40,7 @@ const AllCard = () => {
 
 
         </div>
-     <div className='grid  my-4 gap-y-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 bg-[#e9e9e9]'>
+     <div className='grid  mx-auto pb-4 gap-y-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-4 bg-[#e9e9e9]'>
            {
             mydata.map((cardData)=> <AllCards key={cardData.id} cardData={cardData}></AllCards>)
         }

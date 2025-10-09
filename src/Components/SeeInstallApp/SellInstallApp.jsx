@@ -2,21 +2,26 @@ import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import useCardData from '../../Hooks/useCardData';
   import { ToastContainer, toast } from 'react-toastify';
-import { Download, Star, ThumbsUp } from 'lucide-react';
+
+import {  Download,  Star, ThumbsUp } from 'lucide-react';
+import GraphCharts from './GraphCharts';
 
 const SellInstallApp = () => {
   const installData = useCardData()
   const [click ,setclick]=useState(false);
   const { id } = useParams();
   const { data, loadding } = installData
+     if (loadding) return <div className='flex justify-center my-auto items-center'>
+      <span className="loading loading-dots loading-xl"></span>
+    </div>
   const cardData = data.find(p => String(p.id) === id)
-  if (loadding) return <p>loaddinf.....</p>
+
 
   // console.log(cardData);
-  const { image, title, companyName, downloads, ratingAvg, size, description, reviews, rattings } = cardData
-// console.log(click);
+  const { image, title, companyName, downloads, ratingAvg, size, description, reviews, ratings } = cardData
 
-  // console.log(id);
+
+
 
   const notify = () => toast("Wow so easy!");
 
@@ -24,12 +29,12 @@ const SellInstallApp = () => {
   const localstoregHandle=()=>{
    const  loacalData=  JSON.parse(localStorage.getItem('add-to-cart'))
    let updateList =[]
-  //  consol?\e.log(loacalData);
+  
    
    if(loacalData){
     const isDubliacate = loacalData.find(p=>p.id===cardData.id)
     if(isDubliacate){
-      alert('sorry')
+      return alert('sorry')
     }
     updateList=[...loacalData,cardData]
    }else{
@@ -38,8 +43,9 @@ const SellInstallApp = () => {
    localStorage.setItem('add-to-cart', JSON.stringify(updateList))
 
   }
-  // console.log(l);
 
+  
+  
   return (
     <section>
       <div className="bg-[#e9e9e9]  flex  justify-center flex-col p-4 font-sans">
@@ -129,6 +135,17 @@ const SellInstallApp = () => {
           </div>
 
           {/* this is garph cart section  */}
+
+
+       <div className='space-x-3'>
+        <h3 className='text-gray-500 text-4xl my-2'>Rtings </h3>
+        <div className='h-96'>
+          <GraphCharts ratings={ratings}></GraphCharts>
+   
+
+        </div>
+    
+       </div>
 
 
 

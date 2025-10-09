@@ -1,5 +1,5 @@
 import React from 'react';
-import {  Links, NavLink } from 'react-router';
+import {  Link, Links, NavLink } from 'react-router';
 import LogoImg from '../../../public/assest/logo.png'
 import { Search, Heart, Menu,House, Apple, Download, Github } from "lucide-react";
 
@@ -16,22 +16,30 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><NavLink className='btn btn-outline'>Home</NavLink></li>
-      <li><NavLink className='btn btn-outline'>App</NavLink></li>
-      <li><NavLink className='btn btn-outline'>Installng</NavLink></li>
+     <li><NavLink to='/home' className='btn btn-outline'>
+        <House/>
+        Home</NavLink></li>
+    
+      
+      <li><NavLink to='/card' className='btn btn-outline'>
+        <Apple/>
+        App</NavLink></li>
+      <li><NavLink to='/install' className='btn btn-outline'><Download/> Installng</NavLink></li>
       </ul>
     </div>
     
 
     {/* this is logo section */}
+ <Link to='/home'>
    <div className='flex items-center gap-2'>
         <img src={LogoImg} width='40px ' height='40px' alt="" />
-        <a className="text-xl font-bold text-blue-300">HERO.IO</a>
-    </div>
+        <h1 className="text-xl font-bold text-blue-300">HERO.IO</h1>
+        
+    </div></Link>
   </div>
   <div className="navbar-center  hidden lg:flex">
     <ul className="menu menu-horizontal gap-2 px-1">
-      <li><NavLink className='btn btn-outline'>
+      <li><NavLink to='/home' className='btn btn-outline'>
         <House/>
         Home</NavLink></li>
     
@@ -47,7 +55,7 @@ const Navbar = () => {
   </div>
   <div className="navbar-end">
    {/* <Links>Contribute</Links> */}
-   <NavLink className='btn text-white rounded-[4px] bg-[linear-gradient(125deg,_#632EE3_5.68%,_#9F62F2_88.38%)]'><Github/> Contribute</NavLink>
+   <NavLink to='https://github.com/yasiralif' className='btn text-white rounded-[4px] bg-[linear-gradient(125deg,_#632EE3_5.68%,_#9F62F2_88.38%)]'><Github/> Contribute</NavLink>
   </div>
 </div>
     );

@@ -9,10 +9,12 @@ import AllCard from './Components/AllCardSection/AllCard.jsx'
 import InstallApp from './Components/InstallAppSection/InstallApp.jsx'
 import SellInstallApp from './Components/SeeInstallApp/SellInstallApp.jsx'
 import axios from 'axios/unsafe/axios.js'
+import ErrorPage from './Components/ErroePage/ErrorPage.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
+    // errorElement: <ErrorPage></ErrorPage>,
     children:[
       { index: true, Component:Home},
       { path:'/home',Component: Home },
@@ -21,7 +23,9 @@ const router = createBrowserRouter([
       { path:'/apps/:id' ,
       
         Component:SellInstallApp },
+        
       { path: "/about", element: <p> this is about </p>}
+      ,{ path: "*", element: <ErrorPage /> }
 
     ]
     
