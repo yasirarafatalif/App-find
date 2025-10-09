@@ -2,12 +2,10 @@ import React from 'react';
   import { BarChart, Bar, XAxis, YAxis, Tooltip, Legend, CartesianGrid, ResponsiveContainer } from 'recharts';
 
 const GraphCharts = ({ratings}) => {
-    // console.log(ratings);
+    
     return (
         <div className="bg-white shadow-md rounded-2xl p-4 w-full h-96">
-      {/* <h2 className="text-center text-xl font-semibold mb-4">
-        Rating Distribution
-      </h2> */}
+      
 
       
       <ResponsiveContainer width="100%" height="100%">

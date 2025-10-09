@@ -4,6 +4,7 @@ import useCardData from '../../Hooks/useCardData';
 import { Download, Star } from 'lucide-react';
 import AllCards from './AllCards';
 import { Search } from 'lucide-react';
+import Spinar from '../Spinar/Spinar';
 
 const AllCard = () => {
     const {data,loadding}=useCardData();
@@ -15,7 +16,9 @@ const AllCard = () => {
     // console.log(mydata);
     return (
         
-<div className='bg-[#e9e9e9]'>
+<div>
+  {
+    loadding?<Spinar></Spinar>:<div className='bg-[#e9e9e9]'>
 
     
         <div className='flex justify-between py-3 px-4 py- items-center'>
@@ -48,6 +51,8 @@ const AllCard = () => {
      </div>
 </div>
         
+  }
+</div>
        
     );
 };

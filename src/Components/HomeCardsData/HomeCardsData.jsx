@@ -1,9 +1,11 @@
 import { Download, Star } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router';
+import useCardData from '../../Hooks/useCardData';
 
 const HomeCardsData = ({cardData}) => {
-    // console.log(cardData);
+
+    // const{loadding}=useCardData
     const {title,ratingAvg,downloads,image,companyName,id}=cardData
     return (
 <Link to={`/apps/${id}`}>

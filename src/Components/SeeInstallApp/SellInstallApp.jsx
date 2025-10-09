@@ -5,15 +5,14 @@ import useCardData from '../../Hooks/useCardData';
 
 import {  Download,  Star, ThumbsUp } from 'lucide-react';
 import GraphCharts from './GraphCharts';
+import Spinar from '../Spinar/Spinar';
 
 const SellInstallApp = () => {
   const installData = useCardData()
   const [click ,setclick]=useState(false);
   const { id } = useParams();
   const { data, loadding } = installData
-     if (loadding) return <div className='flex justify-center my-auto items-center'>
-      <span className="loading loading-dots loading-xl"></span>
-    </div>
+     if (loadding) return <Spinar></Spinar>
   const cardData = data.find(p => String(p.id) === id)
 
 

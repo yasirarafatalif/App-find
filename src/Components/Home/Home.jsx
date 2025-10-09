@@ -7,21 +7,21 @@ import HomeCardsData from '../HomeCardsData/HomeCardsData';
 import { NavLink } from 'react-router';
 import { TrendingUp } from 'lucide-react';
 import BuildApps from '../Hero/BuildApps';
+import Spinar from '../Spinar/Spinar';
+
 
 
 const Home = () => {
     const {data,loadding}=useCardData();
     
-    // console.log(data);
+    
     const someData= data.slice(0,8)
-    if (loadding) return <div className='flex justify-center my-auto items-center'>
-      <span className="loading loading-dots loading-xl"></span>
-    </div>
-    
-    
-    
+
     return (
-      <div className=" pb-4 bg-[#e9e9e9]">
+    <div>
+      { 
+        loadding?  <Spinar></Spinar>
+    :  <div className=" pb-4 bg-[#e9e9e9]">
         <BuildApps></BuildApps>
           <Hero></Hero>
       
@@ -51,6 +51,7 @@ const Home = () => {
           }
            
         </div>
+        
         <div className='text-center my-6'> 
           <NavLink to='/card' className='btn text-white px-5 rounded-[4px] text-xl text-center bg-[linear-gradient(125deg,_#632EE3_5.68%,_#9F62F2_88.38%)]'> Show All  </NavLink>
 
@@ -59,6 +60,8 @@ const Home = () => {
         
         
       </div>
+      }
+    </div>
     
       
     

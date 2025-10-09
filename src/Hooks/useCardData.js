@@ -9,8 +9,16 @@ const useCardData = () => {
      useEffect(()=>{
         axios('../myData.json')
         .then(data=>setData(data.data))
-        .finally((()=>setLoadding(false)))
+        // .finally((()=>setLoadding(false)))
+        // .setTimeout(() => setLoadding(false), 3000);
+         const timer = setTimeout(() => {
+      setLoadding(false);
+      return () => clearTimeout(timer);
+    }, 2000); 
      },[])
+//      useEffect(() => {
+   
+//   }, []);
 
 
     return { data, loadding}
