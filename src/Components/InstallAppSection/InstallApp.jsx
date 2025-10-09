@@ -2,8 +2,12 @@ import React, { useEffect, useState } from 'react';
 import InstallImg from "../../../public/assest/App-Error.png";
 import { Link, NavLink } from 'react-router';
 import useNumberToMillion from '../../Hooks/useNumberToMillion';
+import useCardData from '../../Hooks/useCardData';
+import Spinar from '../Spinar/Spinar';
 
 const InstallApp = () => {
+  const {loadding}=useCardData();
+    
   const [install, setinstall]=useState([])
   const [sortOrder , setsortOrder]=useState('none')
   useEffect(()=>{
@@ -24,7 +28,7 @@ const InstallApp = () => {
     }
   }
   ) ()
-// console.log(sortItem);
+
 
 
     const handleRemove=(id)=>{
@@ -38,7 +42,9 @@ const InstallApp = () => {
   }
   const{formatDownloads}=useNumberToMillion()
     return (
-   <div className="bg-gray-100 min-h-screen font-sans text-gray-800">
+      <div>
+        {
+          loadding?<Spinar></Spinar>:   <div className="bg-gray-100 min-h-screen font-sans text-gray-800">
     
       <div >
         
@@ -133,6 +139,9 @@ const InstallApp = () => {
         }
       </div>
     </div>
+        }
+      </div>
+
     );
 };
 

@@ -2,10 +2,12 @@ import { Download, Star } from 'lucide-react';
 import React from 'react';
 import { Link } from 'react-router';
 import useCardData from '../../Hooks/useCardData';
+import useNumberToMillion from '../../Hooks/useNumberToMillion';
 
 const HomeCardsData = ({cardData}) => {
 
-    // const{loadding}=useCardData
+
+    const{formatDownloads}=useNumberToMillion()
     const {title,ratingAvg,downloads,image,companyName,id}=cardData
     return (
 <Link to={`/apps/${id}`}>
@@ -21,15 +23,10 @@ const HomeCardsData = ({cardData}) => {
    
    
   </div>
-   {/* <div className="card-actions ">
-      <button className="btn btn-primary">Buy Now</button>
-      <div>
 
-      </div>
-    </div> */}
 
     <div className='flex px-2 py-2 justify-between items-center'>
-        <div className=''> <button className=" btn text-green-400 bg-gray-200 "> <Download/> {downloads} </button> </div>
+        <div className=''> <button className=" btn text-green-400 bg-gray-200 "> <Download/> {formatDownloads(downloads)} </button> </div>
              <div className=''> <button className=" btn text-blue-400 bg-gray-200 "> <Star/> {ratingAvg} </button> </div>
 
     </div>
