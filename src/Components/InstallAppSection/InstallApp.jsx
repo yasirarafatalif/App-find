@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import InstallImg from "../../../public/assest/App-Error.png";
 import { Link, NavLink } from 'react-router';
+import useNumberToMillion from '../../Hooks/useNumberToMillion';
 
 const InstallApp = () => {
   const [install, setinstall]=useState([])
@@ -35,6 +36,7 @@ const InstallApp = () => {
    localStorage.setItem('add-to-cart', JSON.stringify(upDateList))
 
   }
+  const{formatDownloads}=useNumberToMillion()
     return (
    <div className="bg-gray-100 min-h-screen font-sans text-gray-800">
     
@@ -97,7 +99,7 @@ const InstallApp = () => {
                 <div className="flex items-center gap-4 mt-1 text-sm text-gray-500">
                   <div className="flex items-center gap-1.5">
                     {/* <ArrowDownTrayIcon className="w-4 h-4" /> */}
-                    <span>{p.downloads}M</span>
+                    <span>{formatDownloads(p.downloads)}</span>
                   </div>
                   <div className="flex items-center gap-1.5">
                     {/* <StarIcon className="w-4 h-4 text-yellow-500" /> */}

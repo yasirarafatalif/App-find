@@ -22,7 +22,7 @@ const AllCard = () => {
 
     
         <div className='flex justify-between py-3 px-4 py- items-center'>
-            <p className='text-xl'>All App avibale ({mydata.length}/10)</p>
+            <p className='text-xl'>All App avibale ({mydata.length}/50)</p>
 
             {/* this is scarh */}
             <label className="input">

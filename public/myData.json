@@ -4,11 +4,11 @@
     "title": "NoteMate",
     "companyName": "Skyline Labs",
     "id": 1,
-    "description": "Fake description for NoteMate by Skyline Labs. A demo app showcasing features and UI.",
+    "description": "NoteMate is a thoughtfully designed note-taking and organization app built to help users capture ideas quickly and keep everything synced across devices. It focuses on speed, minimalism, and powerful organization tools: notebooks, tags, smart search, and quick capture widgets. Users can create hierarchical notebooks, pin frequently used notes, and set reminders for important items. The editor supports rich text formatting, code blocks, images, and embedded checklists so both casual and power users can use it as a daily journal, task tracker, or developer scratchpad. Collaboration features allow sharing notebooks or single notes with view or edit rights; version history lets teams or individuals restore previous states. NoteMate also includes a robust import/export system supporting common formats (Markdown, plain text, JSON) and a theme engine with dark mode and configurable font sizes for accessibility. Offline-first caching ensures access without connectivity and automatic background sync minimizes conflicts. With privacy in mind, NoteMate offers optional local-only storage and passcode/biometric protection. Designed for students, creative professionals, and anyone who values organized thoughts, NoteMate aims to be simple to start with and powerful to scale into a daily workflow.",
     "size": 70.28,
     "reviews": 481,
-    "ratingAvg": 2.95,
-    "downloads": 147316,
+    "ratingAvg": 3.0,
+    "downloads": 1473160,
     "ratings": [
       { "name": "1 star", "count": 168 },
       { "name": "2 star", "count": 80 },
@@ -22,14 +22,14 @@
     "title": "PhotoFlow",
     "companyName": "PixelForge",
     "id": 2,
-    "description": "Fake description for PhotoFlow by PixelForge. A demo app showcasing features and UI.",
+    "description": "PhotoFlow is a lightweight but powerful mobile photo editor built for creators who want professional-feeling results without complexity. The app gives users a curated set of non-destructive editing tools: exposure, contrast, curves, color balance, selective color adjustments, and an easy-to-use noise reduction module. PhotoFlow's standout features include layered filters (so you can chain looks), a retouch brush, and local adjustments for selective edits. There is an effects marketplace with community-created presets and one-tap looks for social sharing. The gallery organizes photos by albums, moments, and smart tags generated using on-device computer vision — faces, landscapes, documents, and food categories are recognized to help with quick sorting. Export options include multiple quality settings, watermark toggles, and aspect ratio templates for popular social platforms. PhotoFlow emphasizes privacy: all face recognition runs on-device, and the app gives explicit controls to disable any kind of cloud processing. Designed for hobbyists and semi-pro photographers, PhotoFlow balances creative depth with an approachable interface and quick workflows for editing on the go.",
     "size": 214.36,
     "reviews": 792,
-    "ratingAvg": 3.48,
-    "downloads": 395024,
+    "ratingAvg": 3.5,
+    "downloads": 3950240,
     "ratings": [
-      { "name": "1 star", "count":  74 },
-      { "name": "2 star", "count":  67 },
+      { "name": "1 star", "count": 74 },
+      { "name": "2 star", "count": 67 },
       { "name": "3 star", "count": 170 },
       { "name": "4 star", "count": 382 },
       { "name": "5 star", "count": 99 }
@@ -40,14 +40,14 @@
     "title": "Weatherly",
     "companyName": "NimbusSoft",
     "id": 3,
-    "description": "Fake description for Weatherly by NimbusSoft. A demo app showcasing features and UI.",
+    "description": "Weatherly is a modern weather companion that blends precise forecasting with elegant visuals and actionable local insights. The app provides hyperlocal hourly forecasts up to 48 hours and daily outlooks for the next two weeks. Weatherly integrates precipitation radar overlays, air quality indices, pollen counts, and severe weather alerts to help users plan their day. Key features include route-based weather checks (showing conditions along a commute), widgets for quick glance information on home screens, and customizable alerts for temperatures, rain start, or wind thresholds. The UI visually narrates the forecast through animated backgrounds and context-aware cards that highlight relevant details like UV index during sunny afternoons or humidity through sticky summer nights. Weatherly syncs favorite locations across devices and supports offline caching so basic forecasts remain available without connectivity. Privacy-focused, Weatherly anonymizes location queries and offers a compact data usage mode. Ideal for commuters, outdoor hobbyists, and anyone wanting clear, concise, and reliable weather information.",
     "size": 23.11,
     "reviews": 489,
-    "ratingAvg": 3.46,
-    "downloads": 8462,
+    "ratingAvg": 3.5,
+    "downloads": 846200,
     "ratings": [
-      { "name": "1 star", "count":  22 },
-      { "name": "2 star", "count":  65 },
+      { "name": "1 star", "count": 22 },
+      { "name": "2 star", "count": 65 },
       { "name": "3 star", "count": 187 },
       { "name": "4 star", "count": 165 },
       { "name": "5 star", "count": 50 }
@@ -58,11 +58,11 @@
     "title": "FitPulse",
     "companyName": "HealthWare",
     "id": 4,
-    "description": "Fake description for FitPulse by HealthWare. A demo app showcasing features and UI.",
+    "description": "FitPulse is a fitness tracking and coaching app aimed at people who want a friendly, data-informed approach to improving health. It combines guided workouts, personalized weekly plans, and flexible micro-workouts for busy schedules. Users can choose goals — strength, endurance, flexibility, or general fitness — and FitPulse generates adaptive plans that respond to progress and reported fatigue. Workout video demonstrations are accompanied by form tips and tempo guidance. The app integrates with native health ecosystems to import steps, heart rate, and sleep data so progress tracking is smoother. For runners and cyclists, FitPulse offers pace and power zones, interval training builders, and route analysis. Nutrition logging is optional and simplified with a barcode scanner, meal templates, and macro summaries. Social features include challenges, leaderboards, and private groups for accountability. FitPulse also focuses on injury prevention through warm-up routines and mobility sessions. For privacy, user health data stays encrypted, and cloud backup is optional. Designed for beginners through intermediate athletes who want structure without being overwhelmed.",
     "size": 136.63,
     "reviews": 734,
-    "ratingAvg": 3.43,
-    "downloads": 221447,
+    "ratingAvg": 3.4,
+    "downloads": 22144722,
     "ratings": [
       { "name": "1 star", "count": 120 },
       { "name": "2 star", "count": 189 },
@@ -76,11 +76,11 @@
     "title": "CookBookr",
     "companyName": "ByteKitchen",
     "id": 5,
-    "description": "Fake description for CookBookr by ByteKitchen. A demo app showcasing features and UI.",
+    "description": "CookBookr is a recipe manager and meal planning app designed for home cooks who want to organize recipes, plan weekly meals, and reduce food waste. Recipes can be added manually, imported from URLs, or scanned from cookbooks with OCR. Each recipe shows clear step-by-step instructions, ingredient scaling for different serving sizes, and timing overlays for multitasking in the kitchen. Meal plans can be created by dragging recipes onto a calendar, and shopping lists auto-generate grouped-by-aisle lists to speed up grocery runs. The app includes dietary filters for common preferences (vegetarian, gluten-free, low-FODMAP) and substitution suggestions to adapt recipes with pantry items. CookBookr also tracks inventory basics — users can mark staples they have at home and the planner will avoid listing them redundantly. The community area allows sharing recipes, commenting, and saving curated collections. Offline access ensures recipes stay available while traveling or in areas with poor connectivity. CookBookr is built for families, busy professionals, and anyone who loves cooking but wants better organization.",
     "size": 46.78,
     "reviews": 547,
-    "ratingAvg": 3.81,
-    "downloads": 58233,
+    "ratingAvg": 3.8,
+    "downloads": 582330,
     "ratings": [
       { "name": "1 star", "count": 21 },
       { "name": "2 star", "count": 34 },
@@ -94,11 +94,11 @@
     "title": "TaskSphere",
     "companyName": "OrbitApps",
     "id": 6,
-    "description": "Fake description for TaskSphere by OrbitApps. A demo app showcasing features and UI.",
+    "description": "TaskSphere is a simple-yet-powerful task manager focused on helping users tame their to-do lists with context-aware organization and minimal friction. It supports projects, sections, subtasks, and checklists, plus smart tags that allow grouping across projects without duplicating tasks. Natural language quick-add parses due dates and reminders, and recurring tasks are flexible with custom patterns. The app emphasizes focus with a Today view showing the most actionable items, a Pomodoro timer for concentrated work blocks, and a distraction-free mode for deep sessions. Integrations with calendars and email allow converting messages into tasks and seeing tasks alongside scheduled events. TaskSphere also offers analytics so users can spot productivity trends and adjust their workflow. Lightweight syncing works across devices, and users can opt for encrypted backups. The UX aims to be fast on mobile devices and helpful on desktop, appealing to students, freelancers, and professionals who want an intuitive task tool without feature bloat.",
     "size": 18.92,
     "reviews": 375,
-    "ratingAvg": 3.21,
-    "downloads": 11002,
+    "ratingAvg": 3.2,
+    "downloads": 110020,
     "ratings": [
       { "name": "1 star", "count": 42 },
       { "name": "2 star", "count": 58 },
@@ -112,11 +112,11 @@
     "title": "ChatNest",
     "companyName": "TalkLoop",
     "id": 7,
-    "description": "Fake description for ChatNest by TalkLoop. A demo app showcasing features and UI.",
+    "description": "ChatNest is a compact messaging app that emphasizes privacy and simplicity for small groups and close friends. The app supports secure end-to-end encrypted chats, disappearing messages, and media sharing with optional automatic quality reduction to save storage. Group management tools let admins set roles, approve new members, and pin important messages. ChatNest features threaded replies and lightweight reactions to keep conversations organized without overwhelming notifications. It also includes ephemeral stories for sharing quick updates and a local-only archive option for users who prefer not to keep cloud backups. For teams, ChatNest offers topic channels and file search across shared documents and images. The UI is intentionally minimal: clear typography, concise controls, and accessible contrast for long conversations. With a focus on speed and battery-friendliness, ChatNest is optimized for low-end devices and spotty networks — everything needed for everyday secure messaging without complicated setup.",
     "size": 52.41,
     "reviews": 297,
     "ratingAvg": 2.9,
-    "downloads": 77215,
+    "downloads": 772150,
     "ratings": [
       { "name": "1 star", "count": 103 },
       { "name": "2 star", "count": 48 },
@@ -130,14 +130,14 @@
     "title": "TuneWave",
     "companyName": "SoundMill",
     "id": 8,
-    "description": "Fake description for TuneWave by SoundMill. A demo app showcasing features and UI.",
+    "description": "TuneWave is a streaming and offline music player designed for people who want a curated listening experience with smart discovery. TuneWave groups music into mood-based stations and personal mixes generated from listening habits and explicit user feedback (thumbs up/down). Offline playlists can be downloaded with configurable storage limits, and the player includes a 10-band equalizer, crossfade, and gapless playback for audiophiles. Social features let users follow friends, share short clips, and create collaborative playlists. TuneWave also supports podcasts with chapter markers and variable playback speed. Artist pages include bios, tour dates, and merch links where available. The app focuses on smooth UX: quick queuing, easy queue reordering, and contextual recommendations that surface similar artists or deep cuts. Privacy controls allow anonymized listening and the option to opt out of data-driven recommendations. TuneWave aims to be a friendly, performance-oriented player for everyday listening and discovery.",
     "size": 89.07,
     "reviews": 653,
-    "ratingAvg": 3.91,
-    "downloads": 999999,
+    "ratingAvg": 3.9,
+    "downloads": 9999990,
     "ratings": [
-      { "name": "1 star", "count":  30 },
-      { "name": "2 star", "count":  68 },
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 68 },
       { "name": "3 star", "count": 164 },
       { "name": "4 star", "count": 254 },
       { "name": "5 star", "count": 137 }
@@ -148,11 +148,11 @@
     "title": "BudgetBee",
     "companyName": "PocketFin",
     "id": 9,
-    "description": "Fake description for BudgetBee by PocketFin. A demo app showcasing features and UI.",
+    "description": "BudgetBee is a user-friendly personal finance app that helps users track spending, build budgets, and visualize financial goals without the complexity of full accounting software. The onboarding asks about income streams, regular bills, and typical spending categories to create a simple baseline budget. Transactions can be added manually or imported via secure read-only bank connections where available; users can categorize expenses with quick swipes and set recurring expenses so the app forecasts cash flow. Goal tracking helps with saving for vacations, emergency funds, or large purchases and provides nudges when the user is off-track. BudgetBee includes charts and timelines to visualize spending trends and a weekly summary card for quick insights. Privacy is prioritized: sensitive connections are encrypted, and local-only modes are offered. BudgetBee is ideal for individuals and couples who want transparency and control over their day-to-day finances with approachable tools and clear visual feedback.",
     "size": 12.45,
     "reviews": 389,
-    "ratingAvg": 3.11,
-    "downloads": 45210,
+    "ratingAvg": 3.1,
+    "downloads": 452100,
     "ratings": [
       { "name": "1 star", "count": 52 },
       { "name": "2 star", "count": 89 },
@@ -166,11 +166,11 @@
     "title": "GameGrid",
     "companyName": "PlayCore",
     "id": 10,
-    "description": "Fake description for GameGrid by PlayCore. A demo app showcasing features and UI.",
+    "description": "GameGrid is a hub for casual mobile games and social leaderboards that curates short, snackable experiences. The app features a rotating collection of arcade-style mini-games spanning puzzle, reflex, and strategy genres — each session designed for 2–10 minutes. Players can compete on daily leaderboards, unlock achievement badges, and create private tournaments for friends. GameGrid emphasizes fair match-making for competitive modes and provides practice drills for improving skills in particular games. The platform supports in-app purchases for cosmetic items only, and every mini-game includes accessible controls so new players can jump in quickly. GameGrid also includes a personalized discovery feed that suggests new mini-games and community events based on play patterns. The lightweight client is optimized for quick installs and low storage impact, making it suitable for players who prefer variety without committing to large single-title downloads.",
     "size": 250.0,
     "reviews": 951,
-    "ratingAvg": 3.37,
-    "downloads": 310452,
+    "ratingAvg": 3.4,
+    "downloads": 3104520,
     "ratings": [
       { "name": "1 star", "count": 190 },
       { "name": "2 star", "count": 115 },
@@ -178,5 +178,729 @@
       { "name": "4 star", "count": 230 },
       { "name": "5 star", "count": 172 }
     ]
+  },
+  {
+    "image": "https://picsum.photos/seed/learnly/600/400",
+    "title": "Learnly",
+    "companyName": "EduSpark",
+    "id": 11,
+    "description": "Learnly is an education platform app that offers short, scaffolded lessons across programming, design, and productivity skills. Lessons are bite-sized, interactive, and include short quizzes and hands-on exercises to reinforce learning. Learnly focuses on micro-credentials: finishing a set of lessons earns a certificate that can be shared on social profiles. The app supports offline downloads so learners can study without constant connectivity and provides streak tracking and gentle reminders for habit formation. Instructors can publish lessons through a streamlined creator interface and learners can leave feedback to improve content quality. Learnly also includes discussion threads under lessons and community study groups to foster peer support. The UI is simple and distraction-free, aiming to help busy learners progress in short daily sessions.",
+    "size": 98.4,
+    "reviews": 1120,
+    "ratingAvg": 4.1,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 480 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/medguide/600/400",
+    "title": "MedGuide",
+    "companyName": "HealthGrid",
+    "id": 12,
+    "description": "MedGuide is a health reference and medication tracker aimed at patients managing chronic conditions or complex medication schedules. The app helps users log medications, dosages, and timing with customizable reminders, and offers a medication library with common drug interactions and side-effect notes. Users can share medication lists with caregivers or physicians and export a concise PDF summary for appointments. MedGuide also includes symptom tracking, which can be graphed alongside medication adherence and lifestyle factors like sleep and activity to help identify correlations. For emergencies, a quick-access medical card lists allergies and current medications. The app emphasizes clear, non-technical explanations and provides links to reliable sources for deeper reading. MedGuide stores health data locally and allows encrypted cloud backups only with user consent. Built for patients and caregivers, it aims to simplify medication management and improve communication with healthcare providers.",
+    "size": 34.2,
+    "reviews": 410,
+    "ratingAvg": 3.6,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 48 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 72 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/travelio/600/400",
+    "title": "Travelio",
+    "companyName": "WanderWorks",
+    "id": 13,
+    "description": "Travelio is a trip planning and itinerary app that helps users design trips, discover activities, and manage bookings in one place. The planner supports multi-day itineraries with map views, travel time estimates, and suggested pacing so users can avoid overly busy schedules. Travelio aggregates public transport options, walking times, and common route costs to provide realistic daily plans. Users can store booking confirmations (flights, hotels, tickets) and share trip plans with travel companions. The Explore section surfaces recommended neighborhoods, local events, and curated lists created by community travelers and local guides. Offline maps and downloadable itinerary packs ensure travelers have key details without roaming data. Travelio also includes a packing checklist generator based on climate and trip length, and a finance tracker to estimate daily budgets. Privacy options allow users to keep trips private or share only selective items with friends. Travelio is designed for weekend getaways through extended international vacations.",
+    "size": 64.0,
+    "reviews": 689,
+    "ratingAvg": 3.9,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 139 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/marketly/600/400",
+    "title": "Marketly",
+    "companyName": "CommerceCore",
+    "id": 14,
+    "description": "Marketly is a lightweight marketplace app for local sellers and makers who want to list goods quickly and reach nearby buyers. Listing an item takes minutes: upload photos, set price, choose categories, and add pickup or delivery options. Marketly includes messaging for buyer-seller communication and simple dispute handling flows for refunds or returns. The app highlights nearby trending items and supports scheduled pickup windows and in-app payments via integrated gateways. For sellers, Marketly provides basic analytics: views, saves, and conversion metrics to help optimize listings. The app focuses on local communities, encouraging meetups at public pickup points and offering safety tips for in-person exchanges. Marketly keeps fees transparent and offers promotional boosts for new sellers to get initial traction. Designed for artisans, thrift sellers, and people decluttering their homes, Marketly emphasizes ease of use and safe local commerce.",
+    "size": 45.9,
+    "reviews": 214,
+    "ratingAvg": 3.7,
+    "downloads": 350000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 29 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/podcastly/600/400",
+    "title": "Podcastly",
+    "companyName": "AirStream",
+    "id": 15,
+    "description": "Podcastly is an app for discovering, subscribing to, and listening to podcasts with enhanced discovery tools and episode clipping. The app surfaces curated lists by theme, daily highlights, and algorithmic recommendations refined by explicit user feedback. Podcastly supports offline downloads, variable playback speed, sleep timers, and chapter navigation for long-form episodes. Notable features include clip sharing — users can trim a short segment and share it with annotations — and transcription generation for searchable episode text. Podcast creators can claim shows, upload episodes, and view listener analytics including completion rates and audience geography. Podcastly is optimized for listeners who discover new shows frequently and want easy tools for saving, sharing, and revisiting favorite segments.",
+    "size": 58.8,
+    "reviews": 502,
+    "ratingAvg": 3.8,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 90 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 142 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/inkpad/600/400",
+    "title": "InkPad",
+    "companyName": "DraftWorks",
+    "id": 16,
+    "description": "InkPad is a focused writing app tailored for novelists, journalists, and students who need distraction-free drafting and flexible organization. It offers a clean editor with typewriter mode, chapter navigation, and a corkboard view for arranging scenes and notes. InkPad includes version snapshots so writers can return to earlier drafts, and export options to common formats (EPUB, PDF, DOCX) for easy publishing or submission. Collaboration is possible through shared projects with comment threads and suggested edits, while local-first storage keeps unfinished drafts safe offline. The app supports writing goals with daily targets and simple analytics that show session length and word counts over time. InkPad aims to keep the interface minimal while giving writers the structural tools they need to manage long-form projects effectively.",
+    "size": 40.7,
+    "reviews": 305,
+    "ratingAvg": 3.5,
+    "downloads": 152000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 100 },
+      { "name": "5 star", "count": 70 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/chefmate/600/400",
+    "title": "ChefMate",
+    "companyName": "FoodTech Labs",
+    "id": 17,
+    "description": "ChefMate is designed for home cooks who want interactive cooking assistance—step timers auto-advance when a step completes, hands-free voice navigation reads instructions aloud, and the app suggests plating and garnish tips to level up presentation. Built-in shopping list integration lets users import ingredients from recipes and mark pantry staples as owned. ChefMate’s recipe recommendations adapt to the user’s skill level and appliance availability and include substitutes when ingredients are missing. The app supports meal scheduling and integrates with calendar apps for occasion-based reminders. For users learning culinary techniques, ChefMate offers short video lessons on knife skills, sauce making, and fermentation basics. Community features allow sharing photos, tips, and tweaks to recipes. Privacy settings control shared content visibility and disable social features entirely for private use.",
+    "size": 82.5,
+    "reviews": 430,
+    "ratingAvg": 3.7,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 160 },
+      { "name": "5 star", "count": 70 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/sleepsync/600/400",
+    "title": "SleepSync",
+    "companyName": "Restful Tech",
+    "id": 18,
+    "description": "SleepSync focuses on sleep tracking and improvement using simple, science-backed techniques. The app records sleep phases using motion and optional heart-rate inputs (when available) and provides nightly sleep summaries highlighting duration, efficiency, and wake periods. Personalized sleep coaching offers small behavior changes — consistent bedtimes, wind-down routines, and light exposure suggestions — tailored to the user’s schedule. SleepSync includes a library of bedtime soundscapes, guided meditations, and breathing exercises to ease sleep onset. Smart alarms wake users during light sleep windows close to their target time to minimize grogginess. For people tracking long-term trends, SleepSync offers sleep debt estimates and correlational charts comparing sleep to activity, caffeine, and stress. The app takes data privacy seriously, allowing local storage-only and encrypted backups.",
+    "size": 29.3,
+    "reviews": 260,
+    "ratingAvg": 3.3,
+    "downloads": 275000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 60 },
+      { "name": "5 star", "count": 40 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/langmate/600/400",
+    "title": "LangMate",
+    "companyName": "LinguaLabs",
+    "id": 19,
+    "description": "LangMate is a language learning companion that focuses on daily practice and conversational confidence. Lessons are micro-sized and blend vocabulary, listening, and speaking practice with spaced repetition for durable memory. Conversation practice includes AI-driven roleplays where the learner can speak or type and receive corrective suggestions and alternative phrasing. LangMate offers localized content for regional dialects and cultural notes so learners understand nuances in real contexts. Progress is visualized through weekly streaks, skill maps, and fluency milestones. Teachers can create and share lesson packs, and learners can join tandem exchanges within the app for real conversations. LangMate prioritizes privacy and gives users control over stored audio and transcripts.",
+    "size": 55.6,
+    "reviews": 720,
+    "ratingAvg": 4.0,
+    "downloads": 680000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/artboard/600/400",
+    "title": "ArtBoard",
+    "companyName": "SketchWorks",
+    "id": 20,
+    "description": "ArtBoard is a sketching and concept-boarding app for artists who want a portable canvas. The app offers layered drawing, pressure-sensitive brushes (when stylus supported), quick shape tools, and perspective guides to speed up composition. Boards can contain multiple canvases for iterative concept work and moodboard features allow collecting color palettes, reference images, and type specimens. ArtBoard supports export to common image formats and has collaboration for sharing feedback with annotated comments. The interface focuses on tactile gestures for zoom, rotate, and quick color picking. With offline capabilities and compact files, ArtBoard is suitable for field sketches, storyboarding, and rapid ideation sessions. Designers and illustrators benefit from the simplicity and depth that scales with skill.",
+    "size": 120.0,
+    "reviews": 890,
+    "ratingAvg": 4.2,
+    "downloads": 1450000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 420 }
+    ]
+  },
+   {
+    "image": "https://picsum.photos/seed/voltpass/600/400",
+    "title": "VoltPass",
+    "companyName": "SecureCore",
+    "id": 21,
+    "description": "VoltPass is a secure and user-friendly password manager that helps you store, generate, and autofill credentials across all your devices. It uses military-grade AES-256 encryption and a zero-knowledge architecture, meaning only you can access your data. Features include secure note storage, identity verification, and a password health dashboard to identify weak or reused passwords. VoltPass supports biometric login and offline access to your vault, ensuring your digital life is both safe and convenient.",
+    "size": 35.5,
+    "reviews": 1520,
+    "ratingAvg": 4.6,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 900 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/plantify/600/400",
+    "title": "Plantify",
+    "companyName": "GreenThumb Apps",
+    "id": 22,
+    "description": "Plantify is a plant care assistant for new and experienced plant owners. Identify plants with your camera, get tailored watering and light schedules, and receive reminders for fertilizing and repotting. The app includes a plant journal to track growth and a diagnostic tool to identify common pests and diseases. Join the community to share tips and admire fellow plant lovers' collections. Plantify makes it easy to keep your green friends happy and healthy.",
+    "size": 62.8,
+    "reviews": 810,
+    "ratingAvg": 4.1,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 55 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 280 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/starmap/600/400",
+    "title": "StarMap",
+    "companyName": "Celestial Works",
+    "id": 23,
+    "description": "StarMap is an augmented reality stargazing app that turns your phone into a window to the cosmos. Point your device at the sky to identify stars, constellations, planets, and satellites in real time. Learn about celestial events like meteor showers and eclipses with timely notifications. The app includes detailed information on astronomical objects and a 3D mode to explore the solar system. Perfect for amateur astronomers and curious minds.",
+    "size": 110.2,
+    "reviews": 1250,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/subtrack/600/400",
+    "title": "SubTrack",
+    "companyName": "FinPal",
+    "id": 24,
+    "description": "SubTrack helps you manage and track all your recurring subscriptions and bills in one place. Get insights into your spending, receive alerts before payment dates, and discover services you might have forgotten about. The app supports custom billing cycles and currencies, making it easy to see where your money is going. Take control of your subscriptions and save money by canceling what you don't need.",
+    "size": 22.0,
+    "reviews": 650,
+    "ratingAvg": 3.9,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 145 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/petpal/600/400",
+    "title": "PetPal",
+    "companyName": "Pawsitive Tech",
+    "id": 25,
+    "description": "PetPal is an all-in-one app for pet owners. Track your pet's health records, vaccination dates, and vet appointments. Set reminders for feeding, walks, and medication. Log your pet's activities and milestones in a digital diary. The app also includes a directory of pet-friendly places and emergency vet services nearby. Keep your furry friend's life organized and ensure they get the best care.",
+    "size": 58.6,
+    "reviews": 780,
+    "ratingAvg": 4.2,
+    "downloads": 550000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/zenscape/600/400",
+    "title": "ZenScape",
+    "companyName": "Mindful Labs",
+    "id": 26,
+    "description": "ZenScape is a meditation and mindfulness app for reducing stress and improving focus. Access a library of guided meditations, calming soundscapes, and breathing exercises. The app features themed courses for anxiety, sleep, and focus. Track your progress with session logs and mood check-ins. Whether you have two minutes or twenty, ZenScape helps you find your calm.",
+    "size": 95.3,
+    "reviews": 1100,
+    "ratingAvg": 4.5,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 360 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/codespark/600/400",
+    "title": "CodeSpark",
+    "companyName": "DevCore",
+    "id": 27,
+    "description": "CodeSpark is a mobile code editor and learning playground for developers on the go. Practice with interactive coding challenges in Python, JavaScript, and more. The app includes a powerful editor with syntax highlighting and a built-in console. Sync your projects with cloud services and collaborate with others. Perfect for students and professionals who want to code anytime, anywhere.",
+    "size": 75.1,
+    "reviews": 950,
+    "ratingAvg": 4.0,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 280 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/mixit/600/400",
+    "title": "MixIt",
+    "companyName": "AudioForge",
+    "id": 28,
+    "description": "MixIt is a simple yet powerful DJ and music mixing app. Create seamless mixes with dual decks, a crossfader, and a range of audio effects. The app integrates with your music library and provides beat-matching suggestions. Record your mixes and share them with friends. Whether you're a beginner or an experienced DJ, MixIt lets you unleash your creativity.",
+    "size": 130.4,
+    "reviews": 680,
+    "ratingAvg": 3.7,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 230 },
+      { "name": "5 star", "count": 140 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/storyboarder/600/400",
+    "title": "Storyboarder",
+    "companyName": "Cinema Tech",
+    "id": 29,
+    "description": "Storyboarder is a tool for filmmakers and animators to create and visualize storyboards. Quickly sketch out scenes, add notes, and arrange panels in sequence. The app supports layers, onion skinning, and customizable aspect ratios. Export your storyboards to PDF or image sequences. Streamline your pre-production workflow and bring your vision to life.",
+    "size": 88.9,
+    "reviews": 420,
+    "ratingAvg": 3.8,
+    "downloads": 220000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 150 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/investio/600/400",
+    "title": "Investio",
+    "companyName": "WealthFront",
+    "id": 30,
+    "description": "Investio is a portfolio tracker for stocks, crypto, and ETFs. Connect your brokerage accounts for a consolidated view of your investments. Get real-time price updates, create watchlists, and analyze your portfolio's performance with detailed charts and metrics. Stay informed with curated financial news and market insights. Make smarter investment decisions with Investio.",
+    "size": 50.7,
+    "reviews": 1300,
+    "ratingAvg": 4.3,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/transitgo/600/400",
+    "title": "TransitGo",
+    "companyName": "UrbanFlow",
+    "id": 31,
+    "description": "TransitGo provides real-time public transport information for your city. Get live arrival times for buses, trains, and ferries. Plan your trip with step-by-step navigation, including service alerts and disruption info. Save your favorite stops and routes for quick access. Travel smarter and avoid waiting at the stop with TransitGo.",
+    "size": 28.1,
+    "reviews": 980,
+    "ratingAvg": 3.6,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 150 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/flashcardz/600/400",
+    "title": "Flashcardz",
+    "companyName": "StudyWise",
+    "id": 32,
+    "description": "Flashcardz is a smart flashcard app that uses spaced repetition to help you study more effectively. Create your own decks or download from a public library. The app supports text, images, and audio. Track your learning progress and focus on the topics you find most difficult. Perfect for language learning, exam prep, and lifelong learners.",
+    "size": 41.3,
+    "reviews": 690,
+    "ratingAvg": 4.2,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 270 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/cleanerpro/600/400",
+    "title": "CleanerPro",
+    "companyName": "DeviceHealth",
+    "id": 33,
+    "description": "CleanerPro helps you reclaim storage space on your device. It intelligently scans for duplicate photos, large files, and unused apps. The app provides a simple interface to review and delete unwanted files safely. Features include a contact cleaner to merge duplicates and a cache cleaner to boost performance. Keep your device running smoothly and efficiently.",
+    "size": 19.8,
+    "reviews": 2500,
+    "ratingAvg": 3.2,
+    "downloads": 12500000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 450 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/inkwell/600/400",
+    "title": "Inkwell",
+    "companyName": "Poetica",
+    "id": 34,
+    "description": "Inkwell is a minimalist writing app for poets and creative writers. It offers a distraction-free environment with customizable themes and fonts. The app includes a rhyming dictionary, a thesaurus, and syllable counter to aid your creative process. Organize your work into collections and share your poems with the community. Find your inspiration with Inkwell.",
+    "size": 33.4,
+    "reviews": 310,
+    "ratingAvg": 4.0,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 120 },
+      { "name": "5 star", "count": 100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/eventify/600/400",
+    "title": "Eventify",
+    "companyName": "SocialSphere",
+    "id": 35,
+    "description": "Eventify is a social event planning app. Create events, invite friends, and manage RSVPs with ease. The app includes features like polls for deciding on dates or venues, shared photo albums, and group chat for each event. Integrate with your calendar to keep track of your social life. From birthday parties to group trips, Eventify makes organizing simple and fun.",
+    "size": 68.7,
+    "reviews": 550,
+    "ratingAvg": 3.8,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 120 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/guitartuna/600/400",
+    "title": "GuitarTuna",
+    "companyName": "Chordify",
+    "id": 36,
+    "description": "A popular and highly accurate tuner for guitar, bass, ukulele, and other string instruments. GuitarTuna also includes a metronome, chord library, and simple games to learn chords. The app uses your device's microphone to provide real-time feedback, making tuning fast and easy. Suitable for beginners and professional musicians alike.",
+    "size": 105.0,
+    "reviews": 35000,
+    "ratingAvg": 4.8,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 8500 },
+      { "name": "5 star", "count": 25000 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/bookworm/600/400",
+    "title": "Bookworm",
+    "companyName": "Readify",
+    "id": 37,
+    "description": "Bookworm is a reading tracker and social network for book lovers. Catalog your library, track your reading progress, and set reading goals. Discover new books with personalized recommendations and see what your friends are reading. Write reviews, share quotes, and join discussions in book clubs. Rediscover the joy of reading.",
+    "size": 49.2,
+    "reviews": 1800,
+    "ratingAvg": 4.4,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 860 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/currencyx/600/400",
+    "title": "CurrencyX",
+    "companyName": "GlobeTrot Inc.",
+    "id": 38,
+    "description": "CurrencyX is a powerful currency converter with real-time exchange rates for over 150 currencies. It features an offline mode for use while traveling, historical charts to view currency trends, and a built-in calculator. The simple interface allows for quick conversions on the go. An essential tool for travelers and international business professionals.",
+    "size": 15.6,
+    "reviews": 2200,
+    "ratingAvg": 4.1,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 820 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/homefit/600/400",
+    "title": "HomeFit",
+    "companyName": "Wellness Works",
+    "id": 39,
+    "description": "HomeFit provides guided home workouts with no equipment required. Choose from a variety of programs including HIIT, yoga, and strength training. The app offers personalized plans based on your fitness level and goals. Video demonstrations and audio cues guide you through each exercise. Get fit in the comfort of your own home.",
+    "size": 150.8,
+    "reviews": 1600,
+    "ratingAvg": 4.0,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/quickscan/600/400",
+    "title": "QuickScan",
+    "companyName": "Paperless Inc.",
+    "id": 40,
+    "description": "QuickScan turns your phone into a portable document scanner. Scan receipts, notes, and documents with high quality. The app automatically detects edges, enhances text, and allows you to save scans as PDF or JPEG. Organize your documents with folders and tags, and share them via email or cloud services. Go paperless with QuickScan.",
+    "size": 72.3,
+    "reviews": 3100,
+    "ratingAvg": 4.2,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 1150 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/artflow/600/400",
+    "title": "ArtFlow",
+    "companyName": "Digital Canvas",
+    "id": 41,
+    "description": "ArtFlow transforms your device into a digital sketchbook. With over 80 brushes, layers with blend modes, and high-resolution canvases, it's perfect for artists of all levels. The app supports pressure-sensitive styluses for realistic drawing. Export your work to various formats like PSD for further editing. Unleash your creativity anywhere.",
+    "size": 98.5,
+    "reviews": 4500,
+    "ratingAvg": 4.5,
+    "downloads": 5500000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 2650 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/filmroll/600/400",
+    "title": "FilmRoll",
+    "companyName": "Analog Co.",
+    "id": 42,
+    "description": "FilmRoll brings the magic of analog photography to your phone. Choose from a variety of film presets that mimic classic camera films. The app adds authentic light leaks, grain, and date stamps to your photos. Its simple interface encourages you to focus on the moment. Create beautiful, nostalgic photos with a single tap.",
+    "size": 85.0,
+    "reviews": 920,
+    "ratingAvg": 3.9,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 190 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/vocabuild/600/400",
+    "title": "VocaBuild",
+    "companyName": "Lexicon Labs",
+    "id": 43,
+    "description": "VocaBuild helps you expand your vocabulary with daily quizzes and personalized word lists. Learn new words with definitions, examples, and audio pronunciations. The app uses spaced repetition to reinforce your memory. Track your progress and challenge yourself to master new words. Ideal for students, professionals, and word enthusiasts.",
+    "size": 38.2,
+    "reviews": 1150,
+    "ratingAvg": 4.3,
+    "downloads": 900000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 490 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/journaly/600/400",
+    "title": "Journaly",
+    "companyName": "MindSpace",
+    "id": 44,
+    "description": "Journaly is a private and secure digital journal. Write down your thoughts, track your mood, and add photos to your entries. The app offers customizable prompts to inspire your writing. Set reminders to build a consistent journaling habit. Protect your journal with a passcode or biometric lock. Reflect and grow with Journaly.",
+    "size": 25.9,
+    "reviews": 880,
+    "ratingAvg": 4.6,
+    "downloads": 650000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 10 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 520 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/newshub/600/400",
+    "title": "NewsHub",
+    "companyName": "InfoStream",
+    "id": 45,
+    "description": "NewsHub is a personalized news aggregator. Follow topics and sources you care about, from global news to niche interests. The app provides a clean, ad-free reading experience and a 'briefing' mode for quick headlines. Save articles for offline reading and discover new perspectives with a balanced news diet. Stay informed, not overwhelmed.",
+    "size": 31.0,
+    "reviews": 1400,
+    "ratingAvg": 3.7,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/drivebox/600/400",
+    "title": "DriveBox",
+    "companyName": "Cloud Sync",
+    "id": 46,
+    "description": "DriveBox offers secure cloud storage for your files, photos, and documents. Access your files from any device and share them easily with others. The app features automatic photo backup, offline file access, and a built-in document scanner. With end-to-end encryption, your data is always private and secure. Simplify your digital life with DriveBox.",
+    "size": 92.4,
+    "reviews": 12000,
+    "ratingAvg": 4.1,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 4100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/timebloc/600/400",
+    "title": "TimeBloc",
+    "companyName": "Productiv",
+    "id": 47,
+    "description": "TimeBloc is a time-blocking app for intentional productivity. Plan your day by scheduling tasks and events into blocks of time. The app integrates with your calendar and provides statistics on how you spend your time. Create routines for your morning or evening to build consistency. Take control of your day and focus on what matters.",
+    "size": 20.1,
+    "reviews": 730,
+    "ratingAvg": 4.4,
+    "downloads": 480000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 80 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/weathernow/600/400",
+    "title": "WeatherNow",
+    "companyName": "AtmoSphere",
+    "id": 48,
+    "description": "WeatherNow provides hyperlocal weather forecasts with a beautiful and intuitive interface. Get minute-by-minute precipitation updates, air quality index, and severe weather alerts. The app features customizable widgets and a detailed radar map. Plan your day with confidence using accurate and reliable weather information.",
+    "size": 44.6,
+    "reviews": 5500,
+    "ratingAvg": 4.2,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 2100 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/videocut/600/400",
+    "title": "VideoCut",
+    "companyName": "ClipCraft",
+    "id": 49,
+    "description": "VideoCut is an easy-to-use video editor for creating stunning videos in minutes. Trim, merge, and add music to your clips. The app includes a library of filters, transitions, and animated text. Export your videos in high resolution without a watermark. Perfect for social media stories, vlogs, and personal projects.",
+    "size": 180.5,
+    "reviews": 2800,
+    "ratingAvg": 3.8,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 350 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/seed/radiohub/600/400",
+    "title": "RadioHub",
+    "companyName": "Broadcastify",
+    "id": 50,
+    "description": "RadioHub lets you listen to thousands of live radio stations from around the world. Discover music, news, and sports stations by genre or location. The app includes a sleep timer and the ability to save your favorite stations for quick access. Enjoy a world of audio content for free, wherever you are.",
+    "size": 27.8,
+    "reviews": 1900,
+    "ratingAvg": 3.9,
+    "downloads": 6000000,
+    "ratings": [
+      { "name": "1 star", "count": 180 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 470 }
+    ]
   }
+
 ]
+
+
+ 

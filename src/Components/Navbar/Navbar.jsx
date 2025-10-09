@@ -2,7 +2,8 @@ import React from 'react';
 import {  Link, Links, NavLink } from 'react-router';
 import LogoImg from '../../../public/assest/logo.png'
 import { Search, Heart, Menu,House, Apple, Download, Github } from "lucide-react";
-
+import { FaAppStore } from "react-icons/fa";
+import './Navbar.css'
 
 
 const Navbar = () => {
@@ -16,15 +17,16 @@ const Navbar = () => {
       <ul
         tabIndex={0}
         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-     <li><NavLink to='/home' className='btn btn-outline'>
+         <li><NavLink to='/home' className=' text-gray-400 '>
         <House/>
         Home</NavLink></li>
     
       
-      <li><NavLink to='/card' className='btn btn-outline'>
-        <Apple/>
+      <li><NavLink to='/card' className='  text-gray-400  '>
+        <FaAppStore  className='text-xl'/>
+
         App</NavLink></li>
-      <li><NavLink to='/install' className='btn btn-outline'><Download/> Installng</NavLink></li>
+      <li><NavLink to='/install' className=' text-gray-400 '><Download/> Installng</NavLink></li>
       </ul>
     </div>
     
@@ -39,15 +41,16 @@ const Navbar = () => {
   </div>
   <div className="navbar-center  hidden lg:flex">
     <ul className="menu menu-horizontal gap-2 px-1">
-      <li><NavLink to='/home' className='btn btn-outline'>
+      <li><NavLink to='/home' className=' text-gray-400 '>
         <House/>
         Home</NavLink></li>
     
       
-      <li><NavLink to='/card' className='btn btn-outline'>
-        <Apple/>
+      <li><NavLink to='/card' className='  text-gray-400  '>
+        <FaAppStore  className='text-xl'/>
+
         App</NavLink></li>
-      <li><NavLink to='/install' className='btn btn-outline'><Download/> Installng</NavLink></li>
+      <li><NavLink to='/install' className=' text-gray-400 '><Download/> Installng</NavLink></li>
      
  
       

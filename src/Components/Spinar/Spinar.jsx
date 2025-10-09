@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { ClipLoader, MoonLoader } from "react-spinners";
+import { ClipLoader, DotLoader, MoonLoader } from "react-spinners";
 const Spinar = () => {
   const [loading, setLoading] = useState(true);
 
@@ -10,7 +10,7 @@ const Spinar = () => {
   return (
     <div className="flex justify-center items-center h-screen bg-gray-50">
       {loading ? (
-        <MoonLoader color="#6366F1" size={80} />
+        <DotLoader color="#6366F1" size={80} />
       ) : 
        ''}
     </div>

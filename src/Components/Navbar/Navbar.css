@@ -1,0 +1,10 @@
+
+
+
+.active {
+  background-color: #2563eb; 
+  color: white;
+}
+.nav-btn:hover {
+  background-color: #f0f0f0;
+}

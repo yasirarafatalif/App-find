@@ -6,6 +6,7 @@ import useCardData from '../../Hooks/useCardData';
 import {  Download,  Star, ThumbsUp } from 'lucide-react';
 import GraphCharts from './GraphCharts';
 import Spinar from '../Spinar/Spinar';
+import useNumberToMillion from '../../Hooks/useNumberToMillion';
 
 const SellInstallApp = () => {
   const installData = useCardData()
@@ -43,6 +44,7 @@ const SellInstallApp = () => {
 
   }
 
+  const{formatDownloads}=useNumberToMillion()
   
   
   return (
@@ -86,7 +88,7 @@ const SellInstallApp = () => {
               <div className="flex flex-col">
                 <span className="text-xs text-gray-500 uppercase">Downloads</span>
                 <div className="flex items-center gap-2 mt-1">
-                  <p className="text-3xl font-bold text-gray-900">{downloads}M</p>
+                  <p className="text-3xl font-bold text-gray-900">{formatDownloads(downloads)}</p>
                   
                   <Download className="h-10 w-7 text-gray-400"/>
                 </div>
