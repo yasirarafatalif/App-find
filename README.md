@@ -27,4 +27,4 @@ Hero.io is a modern and interactive web application built with React. It feature
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/yasiralif/App-find.git>
+   git clone https://github.com/yasiralif/App-find.git
