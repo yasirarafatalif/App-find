@@ -18,7 +18,7 @@ const SellInstallApp = () => {
 
   const { image, title, companyName, downloads, ratingAvg, size, description, reviews, ratings } = cardData
 
-  const notify = () => toast("Wow so easy!");
+  const notify = () => toast("Successfully Install!");
 
 
   const localstoregHandle=()=>{

@@ -19,7 +19,7 @@ import Spinar from '../Spinar/Spinar';
      if(loacalDataa) setinstall(loacalDataa);
 
   },[])
-  const notify = () => toast("Wow so easy!");
+  const notify = () => toast("Successfully Uninstalled");
 
 
   const sortItem=(
@@ -45,7 +45,7 @@ import Spinar from '../Spinar/Spinar';
    localStorage.setItem('add-to-cart', JSON.stringify(upDateList))
 
   }
-  // const notify = () => toast("Wow so easy!");
+  
   
   const{formatDownloads}=useNumberToMillion()
     return (
