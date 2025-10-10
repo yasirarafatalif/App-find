@@ -2,10 +2,14 @@ import React, { useEffect, useState } from 'react';
 import InstallImg from "../../../public/assest/App-Error.png";
 import { Link, NavLink } from 'react-router';
 import useNumberToMillion from '../../Hooks/useNumberToMillion';
+import { ToastContainer, toast } from 'react-toastify';
 import useCardData from '../../Hooks/useCardData';
 import Spinar from '../Spinar/Spinar';
 
-const InstallApp = () => {
+
+
+ 
+  const InstallApp = () => {
   const {loadding}=useCardData();
     
   const [install, setinstall]=useState([])
@@ -15,6 +19,7 @@ const InstallApp = () => {
      if(loacalDataa) setinstall(loacalDataa);
 
   },[])
+  const notify = () => toast("Wow so easy!");
 
 
   const sortItem=(
@@ -40,6 +45,8 @@ const InstallApp = () => {
    localStorage.setItem('add-to-cart', JSON.stringify(upDateList))
 
   }
+  // const notify = () => toast("Wow so easy!");
+  
   const{formatDownloads}=useNumberToMillion()
     return (
       <div>
@@ -115,11 +122,20 @@ const InstallApp = () => {
                 </div>
               </div>
             </div>
+           
 
             {/* Right side: Uninstall Button */}
-            <button onClick={()=>handleRemove(p.id)} className="bg-green-500 text-white font-bold py-2 px-6 rounded-lg text-sm hover:bg-green-600 transition-colors">
+         <div>
+             <button onClick={()=>{
+              handleRemove(p.id)
+              notify()
+             }} className="bg-green-500 text-white font-bold py-2 px-6 rounded-lg text-sm hover:bg-green-600 transition-colors">
               Uninstall
-            </button> 
+              
+            </button>
+            
+           
+         </div>
             
           </div>)
           
@@ -140,6 +156,7 @@ const InstallApp = () => {
       </div>
     </div>
         }
+        <ToastContainer /> 
       </div>
 
     );

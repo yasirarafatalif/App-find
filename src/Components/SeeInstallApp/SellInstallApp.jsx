@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import useCardData from '../../Hooks/useCardData';
-  import { ToastContainer, toast } from 'react-toastify';
-
+import { ToastContainer, toast } from 'react-toastify';
 import {  Download,  Star, ThumbsUp } from 'lucide-react';
 import GraphCharts from './GraphCharts';
 import Spinar from '../Spinar/Spinar';
@@ -17,11 +16,7 @@ const SellInstallApp = () => {
   const cardData = data.find(p => String(p.id) === id)
 
 
-  // console.log(cardData);
   const { image, title, companyName, downloads, ratingAvg, size, description, reviews, ratings } = cardData
-
-
-
 
   const notify = () => toast("Wow so easy!");
 
